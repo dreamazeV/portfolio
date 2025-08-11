@@ -1,12 +1,12 @@
 {
     "basic_info": {
-      "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description_header": "Te doy la bienvenida a mi espacio",
+      "description": "Soy Valentina La Fata, editora y diseñadora apasionada por unir estética y estrategia para que las marcas cuenten su historia con fuerza y claridad. Me encanta transformar ideas en identidades visuales sólidas, materiales editoriales atractivos y campañas digitales que realmente conecten. \r\n Trabajo con herramientas como Adobe InDesign, Illustrator, Canva y HTML/CSS básico, y disfruto cada etapa del proceso: desde el concepto hasta el último detalle, siempre buscando que el diseño y el marketing digital trabajen juntos para generar impacto.",
       "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
+        "about": "Sobre mí",
+        "projects": "Proyectos",
+        "skills": "Habilidades",
+        "experience": "Experiencia"
       }
     },
     "projects": [

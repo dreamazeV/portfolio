@@ -18,7 +18,7 @@ class About extends Component {
     return (
       <section id="about">
         <div className="col-md-12">
-          <h1 style={{ color: "black" }}>
+          <h1>
             <span>{sectionName}</span>
           </h1>
           <div className="row center mx-auto mb-5">
@@ -30,18 +30,6 @@ class About extends Component {
                     src={profilepic}
                     alt="Avatar placeholder"
                   />
-                  <Icon
-                    icon={angularIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={reactIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
-                  <Icon
-                    icon={vueIcon}
-                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
-                  />
                 </span>
               </div>
             </div>
@@ -49,35 +37,17 @@ class About extends Component {
             <div className="col-md-8 center">
               <div className="col-md-10">
                 <div className="card">
-                  <div className="card-header">
-                    <span
-                      className="iconify"
-                      data-icon="emojione:red-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:yellow-circle"
-                      data-inline="false"
-                    ></span>{" "}
-                    &nbsp;{" "}
-                    <span
-                      className="iconify"
-                      data-icon="twemoji:green-circle"
-                      data-inline="false"
-                    ></span>
-                  </div>
                   <div
-                    className="card-body font-trebuchet text-justify ml-3 mr-3"
+                    className="card-body text-justify ml-4 mr-4"
                     style={{
                       height: "auto",
-                      fontSize: "132%",
+                      fontFamily: "Jost, sans-serif",
+                      fontSize: "150%",
                       lineHeight: "200%",
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello}</span>
                     <br />
                     <br />
                     {about}

@@ -39,7 +39,7 @@ class Header extends Component {
         <div className="row aligner" style={{height: '100%'}}>
           <div className="col-md-12">
             <div>
-              <span className="iconify header-icon" data-icon="la:laptop-code" data-inline="false"></span>
+              <span className="iconify header-icon" data-icon="material-symbols-light:book-2-outline" color="#A4B285" data-inline="false"></span>
               <br/>
               <h1 className="mb-0">
                 <Typical steps={[name]} wrapper="p" />
@@ -50,15 +50,15 @@ class Header extends Component {
               <Switch
                 checked={this.state.checked}
                 onChange={this.onThemeSwitchChange}
-                offColor="#baaa80"
-                onColor="#353535"
+                offColor="#C0CEA1"
+                onColor="#2D351C"
                 className="react-switch mx-auto"
                 width={90}
                 height={40}
                 uncheckedIcon={
                   <span
                     className="iconify"
-                    data-icon="twemoji:owl"
+                    data-icon="material-symbols:moon-stars-outline"
                     data-inline="false"
                     style={{
                       display: "block",
@@ -66,14 +66,14 @@ class Header extends Component {
                       fontSize: 25,
                       textAlign: "end",
                       marginLeft: "20px",
-                      color: "#353239",
+                      color: "#EFE9E4",
                     }}
                   ></span>
                 }
                 checkedIcon={
                   <span
                     className="iconify"
-                    data-icon="noto-v1:sun-with-face"
+                    data-icon="material-symbols:wb-sunny-outline-rounded"
                     data-inline="false"
                     style={{
                       display: "block",
@@ -81,7 +81,7 @@ class Header extends Component {
                       fontSize: 25,
                       textAlign: "end",
                       marginLeft: "10px",
-                      color: "#353239",
+                      color: "#EFE9E4",
                     }}
                   ></span>
                 }

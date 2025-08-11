@@ -1,6 +1,5 @@
 @import '../src/scss/themes/theme-dark.scss';
 @import '../src/scss/themes/theme-light.scss';
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200;300&display=swap');
 
 html {
 	font-size: 62.5%;
@@ -20,7 +19,8 @@ html {
 }
 
 .title-styles {
-	font-family: 'Raleway', sans-serif;
+	font-family:'Jost', sans-serif;
+	color: #394323;
 	font-size: 250%;
 }
 
@@ -38,7 +38,7 @@ header {
 	-webkit-background-size: cover;
 	text-align: center;
 	overflow: hidden;
-	background-color: #e9d5a1;
+	background-color: #EFE9E4;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -54,7 +54,7 @@ header {
 
 .project-date {
 	font-size: 16px;
-	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-family: 'Jost', sans-serif;
 	padding: 8px 15px 2px 15px;
 	position: relative;
 	z-index: -500;
@@ -65,7 +65,7 @@ header {
 }
 
 .skills-tile {
-	background-color: transparentize(#F8F5F4, 0.95);
+	background-color: transparentize(#C0CEA1, 0.95);
 	padding: 10px 10px 5px 10px;
 	width: 100px;
 	margin: 5px 0 5px 0;
@@ -74,7 +74,7 @@ header {
 
 .language {
 	font-size: 25px;
-	background-color: #e9d5a1;
+	background-color: #EFE9E4;
 	padding-bottom: 10px;
 	padding-top: 80px;
 }
@@ -83,8 +83,9 @@ header h1 {
 	font-size: 400%;
 	text-align: center;
 	font-weight: 600 !important;
-	color: #353239;
-	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	letter-spacing: 2px;
+	color: #505E31;
+	font-family: 'TAN-Astoria', sans-serif;
 	margin: 0 auto 18px auto;
 	width: 100%;
 }
@@ -114,10 +115,12 @@ header h1 {
 
 #about h1 {
 	padding-top: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 3px;
-	color: black;
+	font-size: 24px;
+	font-family:'TAN-Astoria', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;  
+	letter-spacing: 5px;
+	color: #505E31;
 	text-align: center;
 }
 
@@ -172,7 +175,7 @@ header h1 {
 
 .polaroid img {
 	display: block;
-	max-width: 200px;
+	max-width: 600px;
 }
 
 .polaroid span {
@@ -198,10 +201,7 @@ header h1 {
 
 .wave {
 	font-size: 160%;
-}
-
-.font-trebuchet {
-	font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+	color: #505E31;
 }
 
 #preview {
@@ -219,7 +219,7 @@ header h1 {
 }
 
 #resume {
-	background: #efe1bd;
+	background: #A4B285;
 }
 
 .experience-icon {
@@ -278,7 +278,11 @@ header h1 {
 	margin-top: 36px;
 	list-style: none;
 }
-
+.card {
+	background: #A4B285;
+	border: 1px solid #dee2e6;
+	border-radius: 0.25rem;
+}
 .bars li {
 	position: relative;
 	margin-bottom: 60px;
@@ -341,7 +345,7 @@ header h1 {
 }
 
 #portfolio {
-	background: #efe1bd;
+	background: #A4B285;
 	padding-bottom: 5%;
 }
 
@@ -377,7 +381,7 @@ header h1 {
 }
 
 #skills {
-	background: #1F1F1F;
+	background: #EFE9E4;
 	min-height: 200px;
 	width: 100%;
 	overflow: hidden;
@@ -387,27 +391,29 @@ header h1 {
 .section-title {
 	padding-top: 5%;
 	padding-bottom: 5%;
-	font: 18px/24px 'opensans-bold', sans-serif;
+	font: 18px/24px 'TAN-Astoria', sans-serif;
 	text-transform: uppercase;
+	font-weight: bold;
 	letter-spacing: 3px;
-	color: #fff;
+	color: #222815;
 	text-align: center;
 }
 
 .skill-icon {
-	font-size: 180%;
-	color: white;
+	font-size: 200%;
+	font-family: 'jost', sans-serif;
+	color: #2D351C;
 	text-align: center;
 	position: relative;
 }
 
 footer {
-	background: #1F1F1F;
+	background: #505E31;
 	min-height: 100px;
 	width: 100%;
 	overflow: hidden;
 	font-size: 14px;
-	color: white;
+	color: #EFE9E4;
 	position: relative;
 	text-align: center;
 }
